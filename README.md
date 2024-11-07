@@ -18,9 +18,9 @@ GazeLab is a research toolkit for getting real-time eye-tracking data from EyeLi
 ```
     git clone https://github.com/chanyca/GazeLab.git
 ```
-2. Navigate to the projectr directory:
+2. Navigate to the project directory in MATLAB:
 ```
-    cd GazeLab
+    cd('GazeLab')
 ```
 ---
 ### Key functions
