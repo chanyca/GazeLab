@@ -1,5 +1,6 @@
+[![DOI](https://zenodo.org/badge/884527688.svg)](https://doi.org/10.5281/zenodo.14159967)  [![View GazeLab on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/175110-gazelab)
 # GazeLab
-[![DOI](https://zenodo.org/badge/884527688.svg)](https://doi.org/10.5281/zenodo.14159967)  
+
 GazeLab is a research toolkit for getting real-time eye-tracking data from EyeLink and updating stimulus location based on gaze coordinates. It provides tools to set up a simple experiment using Psychtoolbox, conversion between visual degree and pixel, designed to streamline experiments involving real-time gaze-contingent stimulus presentation.  
 
 ---
