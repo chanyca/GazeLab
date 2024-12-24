@@ -30,7 +30,7 @@ elseif string(target) == "warning"
     Screen('TextSize', win.ptr, param.text_size_warning);
 
     % warning text
-    [~, ~, textBounds] = DrawFormattedText(win.ptr, 'Warning: Target Out Of Bound', 'center', 'center', param.red);
+    [~, ~, textBounds] = DrawFormattedText(win.ptr, 'Warning: Look At Fixation Cross', 'center', 'center', param.red);
 
     % text bounding box
     borderPadding = 20; % padding between text and border
