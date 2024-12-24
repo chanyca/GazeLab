@@ -27,10 +27,15 @@ GazeLab is a research toolkit for getting real-time eye-tracking data from EyeLi
 ---
 ### Key functions
 `GazeLab_DrawStim`: Draw visual stimulus to on-screen window, target stimulus location contingent to gaze position.  
-`GazeLab_MonitorGaze`: Real-time monitoring of gaze position, send on-screen warning if gaze is too far from fixation and target stimulus is out of bound.  
+`GazeLab_MonitorGaze`: Real-time monitoring of gaze position, return whether gaze coordinates is within allowed range.  
 `GazeLab_FixationHelper`: Fixation helper for when target stimulus is out of bound, stimulus presentation resumes after 1s successful fixation.  
+`GazeLab_FixationCheck`: Fixation check for continuous period(s) of failed fixation during fixation phase.
 
 For a very simple demo of how the function tracks gaze and update stimulus location (no eye-tracker required), run `Demo.m`.
+
+Tracking modes:  
+Dynamic - Observer can look anywhere as long as visual target remains within bound.  
+Static - Observer must fixate within allowed distance from fixation cross.
 
 ---
 ### Contributing
