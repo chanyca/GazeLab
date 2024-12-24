@@ -1,5 +1,6 @@
 function failed = GazeLab_FixationCheck(fixated, param)
-% Monitor real time gaze coordinates
+% Check if gaze within fixation period passes threshold test
+% User define allowed continuous period (%) of failed fixation
 %
 % Parameters:
 %   fixated (double) - array to store fixation performance each frame
